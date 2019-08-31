@@ -41,7 +41,7 @@ steps:
   displayName: Login to Docker Hub
   inputs:
     command: login
-    containerRegistry: dest_docker_hub
+    containerRegistry: test_docker_hub
 
 
 
