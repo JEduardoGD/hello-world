@@ -27,7 +27,7 @@ steps:
     jdkArchitectureOption: 'x64'
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
-    skipTest: true
+    testSkip: true
     goals: 'package'
     
 - task: PowerShell@2
